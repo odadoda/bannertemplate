@@ -1,0 +1,85 @@
+html,body, textarea {
+  font-family: "helvetica-neu", "helvetica", sans-serif;
+  height: 100%;
+}
+
+.banner-box{
+    border: 1px solid lightgray;
+    display: block;
+    margin: 0 50px 50px 0;
+    float: left;
+}
+
+.s980x300 {
+  width: 980px;
+  height: 300px;
+}
+
+.s980x150 {
+  width: 980px;
+  height: 150px;
+}
+
+.s580x400 {
+  width: 580px;
+  height: 400px;
+}
+
+.s580x500 {
+  width: 580px;
+  height: 500px;
+}
+.s320x250 {
+  width: 320px;
+  height: 250px;
+}
+.s300x250{
+  width: 300px;
+  height: 250px;
+}
+
+.s180x800{
+  width: 180px;
+  height: 800px;
+}
+
+.s160x600 {
+  width: 160px;
+  height: 600px;
+}
+
+.tools {
+  width: 330px;
+  padding: 10px;
+  height: 100%;
+  background: skyblue;
+  margin: 0 50px 0 0;
+  float:left;
+}
+label {
+  display: block;
+  margin: 0 0 5px;
+}
+.preview {
+  width:80%;
+  float: left;
+}
+input, select, textarea {
+  margin: 0 0 15px;
+  padding: 10px;
+  border: 0 none;
+  font-size: 15px;
+  display: inline;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+  height: 120px;
+}
+
+input. textarea {
+  box-shadow: inset 1px 1px 5px rgba(0,0,0,0.2);
+}

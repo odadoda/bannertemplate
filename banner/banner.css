@@ -1,0 +1,44 @@
+@font-face {
+  font-family: Swifty;
+  src: url(Swifty_normal.woff) format("woff");
+  font-weight: 500;
+  font-style: normal
+}
+
+@font-face {
+  font-family: Swifty;
+  src: url(Swifty_bold.woff) format("woff");
+  font-weight: 700;
+  font-style: normal
+}
+
+
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: "Swifty", sans-serif;
+}
+
+
+
+figure {
+  margin: 0;
+}
+
+
+
+@media screen and (max-width: 321px) {
+
+}
+
+@media screen and (max-width: 581px) and (max-height: 401px){
+
+}
+
+@media screen and (max-width: 581px){
+
+}
+
+@media screen and (min-width: 980px){
+
+}

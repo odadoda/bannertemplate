@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="assets/main.css"/>
+    <!-- <link rel='stylesheet' id='wpsc-theme-css-css'  href='http://sourcetagsandcodes.no/wp-content/themes/knowte/wpsc-default.css?ver=3.12.2.fb03617' type='text/css' media='all' /> -->
+  </head>
+  <body>
+    <section class="tools">
+      <form action="" method="post" id="toolsform">
+        <div>
+        <label for="h1">h1</label>
+        <input type="text" name="h1" />
+      </div>
+      <div>
+        <label for="h2">h2</label>
+        <input type="text" name="h2" />
+      </div>
+      <div><label for="h3">h3</label>
+        <input type="text" name="h3" />
+      </div>
+      <div><label for="cta-button">CTA</label>
+        <input type="text" name="cta_text" />
+      </div>
+      <div>
+        <label>features</label>
+        <textarea name="features"></textarea>
+      </div>
+      <div>
+        <label>Color Scheme</label>
+        <select name="colorscheme">
+          <option value="gray">gray</option>
+          <option value="blue">blue</option>
+        </select/>
+        <!-- <input type="submit" value="preview" /> -->
+      </div>
+      <div>
+        <label>Layout</label>
+        <select name="box-position">
+          <option value="left">Left box</option>
+          <option value="bottom">bottom box</option>
+        </select/>
+        <!-- <input type="submit" value="preview" /> -->
+      </div>
+      <div>
+        <ul id="testlist"></ul>
+      </div>
+      </form>
+    </section>
+    <div class="preview">
+      <iframe width="980" height="300" src="./banner/index.html" class="banner-box"></iframe>
+      <iframe width="580" height="500" src="./banner/index.html" class="banner-box"></iframe>
+      <iframe width="580" height="400" src="./banner/index.html" class="banner-box"></iframe>
+      <iframe width="320" height="250" src="./banner/index.html" class="banner-box"></iframe>
+
+    </div>
+    <script src="assets/main.js"></script>
+  </body>
+</html>
