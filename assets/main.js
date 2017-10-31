@@ -1,4 +1,4 @@
-console.log('Welcome to previewer v2');
+console.log('Welcome to previewer v1');
 
 var toolform = document.getElementById('toolsform');
 var iframes = document.getElementsByTagName('iframe');
