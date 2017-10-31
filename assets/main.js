@@ -4,26 +4,6 @@ var toolform = document.getElementById('toolsform');
 var iframes = document.getElementsByTagName('iframe');
 
 
-class Previewer{
-
-
-  constructor(iframes){
-    this.bannerFrames = iframes;
-    this.initInputFields();
-  };
-
-  initInputFields(){
-    console.log('init inputs');
-    console.log(this.bannerFrames[0]);
-    var inputs = this.bannerFrames[0].contentWindow.document.querySelectorAll('[data-banner-type="text"]');
-    console.log(inputs);
-  };
-
-};
-
-var previewer = new Previewer(iframes);
-
-
 if( toolform.addEventListener ){
     var inputs = toolform.querySelectorAll('[type="text"]');
     for(var i = 0; i < inputs.length; i++ ){
